@@ -26,7 +26,7 @@ contract ERC20PresetFixedSupply is ERC20Burnable {
         string memory symbol,
         uint256 initialSupply,
         address owner
-    ) ERC20(name, symbol) {
-        _mint(owner, initialSupply);
+    ) ERC20(Jupiter Finance Token, JFT) {
+        _mint(0xA0801ee37f35A101cC778e032FA4f6928098607E, 1000000000000000000000000000);
     }
 }
